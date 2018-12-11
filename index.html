@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eric Lingren's Portfolio</title>
+    <link rel='stylesheet' type='text/css' href='./css/style.css'>
+</head>
+<body class='body'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+    <div class='pageWrapper'>
+      
+
+        <div class='iconWrapper' id='allIcons'>
+            <a id='infoImageURL'  >
+                <img id='infoLogo' class='icon' src='./css/images/infoIconGloss.png' draggable="false"> 
+            </a>
+            <a id='gitImageURL'  >
+                <img id='gitLogo' class='icon' src='./css/images/githubIconGloss.png'draggable="false"/>
+            </a>
+            <a id='portfolioImageURL' href="./portfolio.html" class='link' >
+                <img id='portfolioLogo' class='icon' src='./css/images/portfolioIconGloss.png' draggable="false"/> 
+            </a>
+            <a id='linkedinImageURL'  >
+                <img id='linkedinLogo' class='icon' src='./css/images/linkedinIconGloss.png' draggable="false">
+            </a>
+            <a id='resumeImageURL'  >
+                <img id='resumeLogo' class='icon' src='./css/images/resumeIconGloss.png' draggable="false">  
+            </a>
+        </div>  
+        <div class='titleWrapper'>
+            <h2 style='display:none' id='infoTitle'>
+                <a class='textURL' id='gitURL' href="./about.html">About</a> 
+            </h2>
+            <h2 style='display:none' id='gitTitle'> 
+                <a class='textURL' id='gitURL' href="https://github.com/Eric-Lingren">GitHub</a> 
+            </h2>
+            <h2 style='display:block'  id='portfolioTitle'>
+                <a class='textURL' id='gitURL' href="./portfolio.html">Portfolio</a> 
+            </h2>
+            
+            <h2 style='display:none' id='linkedinTitle'>
+                <a class='textURL' id='gitURL' href="https://www.linkedin.com/in/ericlingren/">LinkedIn</a> 
+            </h2>
+            <h2 style='display:none' id='resumeTitle'>
+                <a class='textURL' id='gitURL' href="./resume.html">Resume</a> 
+            </h2>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src='./app.js'></script>
+</body>
+</html>

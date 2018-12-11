@@ -1,0 +1,189 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.pageWrapper{
+    background: linear-gradient(to left, #232526, #414345, #414345, #232526);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.exitDiv{
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+}
+.exit{
+    height: 10vh;
+    width: 50vw;
+    
+    margin-top: 0;
+    padding-top: 0;  
+}
+#exit1{
+    background-color: black;
+}
+#exit2{
+    background-color: blue;
+}
+#exit3{
+    background-color: purple;
+}
+#exit4{
+    background-color: green;
+}
+#exit5{
+    background-color: orange;
+}
+#exit6{
+    background-color: black;
+}
+#exit7{
+    background-color: blue;
+}
+#exit8{
+    background-color: purple;
+}
+#exit9{
+    background-color: green;
+}
+#exit10{
+    background-color: orange;
+}
+
+.iconWrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -4%;
+    margin-top: -3%;
+}
+.titleWrapper{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.textURL{
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: .2vw solid #FFF;
+    padding-bottom: .1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 2vw;
+    font-weight: bolder;
+    text-align: center;
+
+    
+}
+
+.textURL:hover{
+    color: #FFF;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: .5vw;
+    text-decoration: none;
+    border-bottom: .2vw solid #FFF;
+    padding-bottom: .7vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+#portfolioImageURL{
+    width: 27%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    transform: perspective(600px) rotateY(0deg) translateY(-0%);
+    cursor: pointer;
+}
+#portfolioLogo{
+    
+    width: 100%;
+    height: 100%;
+    /*
+    border-radius: 20%;
+    box-shadow: 10px 0px 5px rgba(0,0,0,0.3);
+    */
+}
+#linkedinImageURL{
+    width: 19%;
+    height: auto;
+    transform: perspective(600px) rotateY(55deg) translateY(-3%) ;
+    padding: 0;
+    margin: 0;
+    margin-left: -1%;
+    cursor: default;
+    
+}
+
+#linkedinLogo{
+    width: 100%;
+    height: 100%;
+    margin-left: -1%;
+}
+#gitImageURL{
+    width: 19%;
+    height: auto;
+    transform: perspective(600px) rotateY(-55deg) translateY(-3%);
+    padding: 0;
+    margin: 0;
+    margin-right: -1%;
+    cursor: default;
+    
+}
+#gitLogo{
+    height: 100%;
+    width: 100%; 
+}
+#infoImageURL{
+    width: 13%;
+    height: auto;
+    transform: perspective(500px) rotateY(-75deg) translateY(-5%);
+    margin-right: -9%;
+    padding-right: 10px;
+    cursor: default;
+    
+}
+#infoLogo{
+    height: auto;
+    width: 100%; 
+    
+}
+#resumeImageURL{
+    width: 10%;
+    height: auto;
+    transform: perspective(500px) rotateY(80deg) translateY(-7%);
+    margin-left: -8.5%;
+    padding-left: 10px; 
+    cursor: default;
+    
+}
+#resumeLogo{
+    height: 100%;
+    width: 100%; 
+    
+}
+
+.icon{
+  height: auto;
+  width: 27%; 
+  margin: 1%;
+}
+
+
+
+

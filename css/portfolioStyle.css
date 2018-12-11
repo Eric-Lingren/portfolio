@@ -1,0 +1,24 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.pageWrapper{
+    background: linear-gradient(to left, #232526, #414345, #414345, #232526);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+a{
+    color: lightcoral;
+    font-size: 1.5em;
+}
