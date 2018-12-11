@@ -49,7 +49,7 @@ const infoInCenter = () => {
         {rotationY:0, height:'auto', width:'27%', x:'65%', y:'0%', 
         translateY:'-3%', transformPerspective: 600, ease: Power1.easeOut, 
         onComplete: function(){infoTitle.style.display = 'block';
-            info.href="./info.html"}
+            info.href="./about.html"}
     });
     //  Makes the mouse cursor change depending wither the href tag has been added or removed from the image   
     isLinkClickable()
