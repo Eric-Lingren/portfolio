@@ -33,7 +33,7 @@ a:hover{
 }
 
 .navbar{
-    height: 45px;
+    height: 40px;
     width: 100%;
     position: sticky;
     top: 0px;
@@ -41,6 +41,8 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
 
 }
 .homeLink{
@@ -49,15 +51,18 @@ a:hover{
     align-items: center;
 }
 .homeIcon{
-    width: 25%;
+    width: 20%;
     height: auto;
     transition-duration: .2s;
     transition-timing-function: ease-out;
 }
 .homeIcon:hover{
-    width: 30%;
+    width: 25%;
     transition-duration: .2s;
     transition-timing-function: ease-out;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 3px;
 }
 .tile{
     width: 27vw;
@@ -82,14 +87,26 @@ a:hover{
     width: 100%;
     border-radius: 5px;
 }
+#projectThumbnail{
+    background-image: url('./images/blackjack_screenshot.png');
+    background-size: cover;
+    height: 200px;
+    width: 102%;
+    margin-top: -2%;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
 .projectTitle{
     font-size: 2vw;
     margin-bottom: 0;
-    margin-top: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .projectDescription{
     font-size: 1.2vw;
     font-weight: 600;
+    margin: 0;
 }
 .projectLinkContainer{
     width: 100%;
