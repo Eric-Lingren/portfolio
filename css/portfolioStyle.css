@@ -75,11 +75,11 @@ a:hover{
     align-items: center;
     justify-content: center;
     padding: 4%;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 8px 8px 8px #888888; 
 }
 .tile:hover{
-    box-shadow: 11px 11px 8px #8F8F8F;
-    border: 4px white solid;
+    box-shadow: 12px 12px 8px #8F8F8F;
+    
 }
 .projectImage{
     background-color: mediumspringgreen;
@@ -87,19 +87,54 @@ a:hover{
     width: 100%;
     border-radius: 5px;
 }
-#projectThumbnail{
+#projectThumbnailBlackjack{
     background-image: url('./images/blackjack_screenshot.png');
     background-size: cover;
     height: 200px;
-    width: 102%;
+    width: 100%;
     margin-top: -2%;
     border-radius: 10px;
     border: 1px solid white;
+    position: relative;
+    top: -5%;
+}
+#projectThumbnailBlackjack:hover{
+    width: 105%;
+    cursor: pointer;
+}
+#projectThumbnailColossal{
+    background-image: url('./images/colossal_adventure_screenshot.png');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-top: -2%;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: relative;
+    top: -5%;
+}
+#projectThumbnailColossal:hover{
+    width: 105%;
+    cursor: pointer;
+}
+#projectThumbnailZengarden{
+    background-image: url('./images/zengarden_screenshot.png');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-top: -2%;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: relative;
+    top: -5%;
+}
+#projectThumbnailZengarden:hover{
+    width: 105%;
+    cursor: pointer;
 }
 
 .projectTitle{
     font-size: 2vw;
-    margin-bottom: 0;
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -115,7 +150,7 @@ a:hover{
     padding-bottom: 0;
     margin-bottom: 0;
     position: relative;
-    bottom: -10px;
+    bottom: -9%;
 }
 @media screen and (max-width: 1000px) {
     .pageWrapper{
