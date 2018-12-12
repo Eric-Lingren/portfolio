@@ -185,6 +185,12 @@ a:hover{
     padding-bottom: 0;
     margin-bottom: 0;
 }
+#axiosLinkContainer{
+    margin-top: 15%;
+}
+#businesstimeLinkContainer{
+    margin-top: 10%;
+}
 @media screen and (max-width: 1000px) {
     .pageWrapper{
         grid-template-columns: 1fr 1fr;
