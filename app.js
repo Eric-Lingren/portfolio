@@ -349,16 +349,3 @@ function isLinkClickable(){
     }
 }
 
-
-//  grabs the exit divs and sets them to variables
-
-const exit1 = document.getElementById('exit1')
-const exit2 = document.getElementById('exit2')
-const exit3 = document.getElementById('exit3')
-const exit4 = document.getElementById('exit4')
-const exit5 = document.getElementById('exit5')
-const exit6 = document.getElementById('exit6')
-const exit7 = document.getElementById('exit7')
-const exit8 = document.getElementById('exit8')
-const exit9 = document.getElementById('exit9')
-const exit10 = document.getElementById('exit10')

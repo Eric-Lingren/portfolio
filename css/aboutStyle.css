@@ -22,9 +22,8 @@ a{
     color: lightcoral;
     font-size: 1.5em;
 }
-
 .navbar{
-    height: 45px;
+    height: 40px;
     width: 100%;
     position: sticky;
     top: 0px;
@@ -32,7 +31,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+    z-index: 1;
 }
 .homeLink{
     display: flex;
@@ -40,14 +41,16 @@ a{
     align-items: center;
 }
 .homeIcon{
-    width: 25%;
+    width: 20%;
     height: auto;
     transition-duration: .2s;
     transition-timing-function: ease-out;
 }
 .homeIcon:hover{
-    width: 30%;
+    width: 25%;
     transition-duration: .2s;
     transition-timing-function: ease-out;
-
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 3px;
 }
