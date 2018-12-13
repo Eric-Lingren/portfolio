@@ -7,7 +7,7 @@ body, html{
 }
 
 .navbar{
-    height: 40px;
+    height: 45px;
     width: 100%;
     position: absolute;
     top: 0px;
@@ -21,6 +21,17 @@ body, html{
 }
 #nameHeading{
     font-size: 2.5em;
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+#nameHeading:hover{
+    letter-spacing: .1vw;
+    text-decoration: underline;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
 }
 .pageWrapper{
     background: linear-gradient(to left, #232526, #414345, #414345, #232526);
