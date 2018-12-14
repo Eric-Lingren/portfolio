@@ -1,5 +1,5 @@
 .navbar{
-    height: 45px;
+    height: 50px;
     width: 100%;
     position: sticky;
     top: 0px;
@@ -55,6 +55,19 @@
     transition-timing-function: ease-out;
     margin-left: 10vw;
 }
+#portfolioNavbarIconResumePage{
+    width: 30px;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    margin-left: 10vw;
+}
+#portfolioNavbarIconAboutPage{
+    width: 30px;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    margin-right: 10vw;
+}
+
 #aboutNavbarIcon:hover{
     width: 35px;
     transition-duration: .2s;
@@ -62,7 +75,6 @@
     border-radius: 50%;
     border: 2px solid black;
     padding: 3px;
-    left: 37.5%;
 }
 #gitNavbarIcon:hover{
     width: 35px;
@@ -71,7 +83,6 @@
     border-radius: 50%;
     border: 2px solid black;
     padding: 3px;
-    left: 42.5%;
 }
 #homeNavbarIcon:hover{
     width: 35px;
@@ -80,7 +91,6 @@
     border-radius: 50%;
     border: 2px solid black;
     padding: 3px;
-    left: 47.5%;
 }
 #linkedinNavbarIcon:hover{
     width: 35px;
@@ -89,7 +99,6 @@
     border-radius: 50%;
     border: 2px solid black;
     padding: 3px;
-    left: 52.5%;
 }
 #resumeNavbarIcon:hover{
     width: 30px;
@@ -100,7 +109,22 @@
     padding: 3px;
     padding-left: 6px;
     padding-right: 6px;
-    left: 57.5%;
+}
+#portfolioNavbarIconResumePage:hover{
+    width: 35px;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 3px;
+}
+#portfolioNavbarIconAboutPage:hover{
+    width: 35px;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 3px;
 }
 
 /* @media screen and (max-width: 1000px) {
