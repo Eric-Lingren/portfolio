@@ -11,46 +11,49 @@
     border-bottom: black solid 2px;
     z-index: 1;
 }
+.navLinkWrapper{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .navLink{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 40px;
 }
 #aboutNavbarIcon{
     width: 30px;
     transition-duration: .2s;
     transition-timing-function: ease-out;
-    position: absolute;
-    left: 38%;
+    margin-right: 10vw;
 }
 #gitNavbarIcon{
     width: 30px;
     transition-duration: .2s;
     transition-timing-function: ease-out;
-    position: absolute;
-    left: 43%;
+    margin-right: 5vw;
 }
 #homeNavbarIcon{
     width: 30px;
     transition-duration: .2s;
     transition-timing-function: ease-out;
-    position: absolute;
-    left: 48%;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 #linkedinNavbarIcon{
     width: 30px;
     transition-duration: .2s;
     transition-timing-function: ease-out;
-    position: absolute;
-    left: 53%;
+    margin-left: 5vw;
     
 }
 #resumeNavbarIcon{
     width: 25px;
     transition-duration: .2s;
     transition-timing-function: ease-out;
-    position: absolute;
-    left: 58%;
+    margin-left: 10vw;
 }
 #aboutNavbarIcon:hover{
     width: 35px;
