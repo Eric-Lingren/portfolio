@@ -52,17 +52,27 @@ body, html{
 }
 .badgeTitles{
     text-align: center;
+    font-size: 1.5em;
+    margin-bottom: .3em;
 }
 .badgeContainer{
     background-color: rgba(255,255,255,.6);
     border-radius: 20px;
     padding: 20px;
     box-shadow: 1px 2px 9px 4px rgb(144, 143, 143);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 .badge{
     height: 100px;
     width: auto;
 }
+/* #gsapBadge{
+    height: auto;
+    width: 300px;
+} */
 #longBadges{
     height: auto;
     width: 170px;
