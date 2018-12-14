@@ -94,20 +94,22 @@ body, html{
     width: 15vw;
 }
 #otherProficienciesContainer{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 #photoshopBadge{
-    margin-left: 5vw;
+    margin-right: -1.5vw;
 }
 #ciscoBadge{
     height: auto;
     width: 15vw;
     margin: 0;
+    margin-right: -2vw;
 }
 #awsBadge{
     height: auto;
-    width: 10vw;
-    margin-right: 4vw;
+    width: 8vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
 }
 
 
