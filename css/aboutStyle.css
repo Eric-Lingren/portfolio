@@ -1,7 +1,7 @@
 body, html{
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -9,7 +9,7 @@ body, html{
 
 .pageWrapper{
     background: linear-gradient(to left, #232526, #414345, #414345, #232526);
-    height: 100vh;
+    height: auto;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -18,10 +18,6 @@ body, html{
     color: white;
 }
 
-a{
-    color: lightcoral;
-    font-size: 1.5em;
-}
 .navbar{
     height: 40px;
     width: 100%;
@@ -53,4 +49,29 @@ a{
     border-radius: 50%;
     border: 2px solid black;
     padding: 3px;
+}
+.badgeTitles{
+    text-align: center;
+}
+.badgeContainer{
+    background-color: rgba(255,255,255,.6);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 1px 2px 9px 4px rgb(144, 143, 143);
+}
+.badge{
+    height: 100px;
+    width: auto;
+}
+#longBadges{
+    height: auto;
+    width: 170px;
+}
+#ciscoBadge{
+    height: 150px;
+    width: auto;
+}
+#awsBadge{
+    height: auto;
+    width: 120px;
 }
