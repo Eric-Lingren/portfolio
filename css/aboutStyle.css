@@ -1,16 +1,16 @@
 body, html{
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100vw;
+    height: auto;
+    width: 100%;
     font-family: 'Courier New', Courier, monospace;
 }
 
 
 .pageWrapper{
     background: linear-gradient(to left, #232526, #414345, #414345, #232526);
-    height: auto;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -52,13 +52,15 @@ body, html{
 }
 .badgeTitles{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2vw;
     margin-bottom: .3em;
+    margin-top: 30px;
 }
 .badgeContainer{
     background-color: rgba(255,255,255,.6);
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     box-shadow: 1px 2px 9px 4px rgb(144, 143, 143);
     display: flex;
     justify-content: center;
@@ -66,22 +68,61 @@ body, html{
     align-items: center;
 }
 .badge{
-    height: 100px;
-    width: auto;
+    height: auto;
+    width: 7vw;
+    margin: 10px;
 }
 /* #gsapBadge{
     height: auto;
     width: 300px;
 } */
+#jsBadge{
+    height: auto;
+    width: 10vw;
+}
+#cssBadge{
+    height: auto;
+    width: 11vw;
+    margin-right: 0;
+}
+#mongodbBadge{
+    height: auto;
+    width: 8vw;
+}
 #longBadges{
     height: auto;
-    width: 170px;
+    width: 15vw;
+}
+#otherProficienciesContainer{
+    margin-bottom: 10%;
+}
+#photoshopBadge{
+    margin-left: 5vw;
 }
 #ciscoBadge{
-    height: 150px;
-    width: auto;
+    height: auto;
+    width: 15vw;
+    margin: 0;
 }
 #awsBadge{
     height: auto;
-    width: 120px;
+    width: 10vw;
+    margin-right: 4vw;
+}
+
+
+@media screen and (max-width: 430px) {
+    .badgeTitles{
+        font-size: 3.5vw;
+    }
+}
+@media screen and (max-width: 375px) {
+    #awsBadge{
+        margin-right: 2vw;
+        margin-left: -2vw;
+    }
+    #photoshopBadge{
+        margin-left: 3vw;
+        margin-right: -3vw;
+    }
 }
