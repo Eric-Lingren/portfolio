@@ -349,3 +349,24 @@ function isLinkClickable(){
     }
 }
 
+const phone = document.getElementById('contactIconPhone')
+const phoneNumber = document.getElementById('phoneNumber')
+const nameHeading = document.getElementById('nameHeading')
+let phoneToggle = false;
+
+phone.addEventListener('click', phoneAlert)
+
+function phoneAlert(){
+    if (phoneToggle){
+        phoneToggle = false
+    } else{
+        phoneToggle = true
+    }
+    if(phoneToggle){
+        phoneNumber.style.display = 'block'
+        nameHeading.style.marginLeft = '-20%'
+    } else {
+        phoneNumber.style.display = 'none'
+        nameHeading.style.marginLeft = '0%'
+    }
+}

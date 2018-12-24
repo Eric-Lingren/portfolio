@@ -19,18 +19,18 @@ body, html{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-right: 2px white solid;
     
 }
 #headShot{
     width: 20vw;
     height: auto;
-    border-radius: 50%;
+    border-radius: 5%;
     margin-top: 5%;
 }
 .aboutTextContainer{
     width: 80%;
     font-size: 1.1vw;
+    margin-top: 3%;
 }
 .badgeWrapper{
     height: 100%;
@@ -132,6 +132,19 @@ body, html{
 @media screen and (max-width: 430px) {
     .badgeTitles{
         font-size: 3.5vw;
+    }
+    .pageWrapper{
+        grid-template-columns: 1fr;
+    }
+    .aboutTextContainer{
+        font-size: 2.2vw;
+        margin-top: 1%;
+    }
+    #headShot{
+        width: 40vw;
+        height: auto;
+        border-radius: 5%;
+        margin-top: 5%;
     }
 }
 @media screen and (max-width: 375px) {
