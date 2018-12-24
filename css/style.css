@@ -7,20 +7,43 @@ body, html{
 }
 
 .navbar{
-    height: 50px;
+    height: 40px;
     width: 100%;
     position: absolute;
     top: 0px;
     background-image: linear-gradient(  #eef2f3, #8e9eab);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-top: black solid 2px;
     border-bottom: black solid 2px;
     z-index: 1;
+    
 }
+
+#contactIconPhone{
+    width: 2%;
+    margin-left: 2%;
+}
+#contactIconPhone:hover{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 1.1%;
+}
+#contactIconEmail{
+    width: 3vw;
+    margin-right: 2%;
+
+}
+#contactIconEmail:hover{
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 1.7%;
+}
+
 #nameHeading{
-    font-size: 3em;
+    font-size: 2.5em;
     text-decoration: none;
     color: #000;
     font-weight: bolder;
@@ -231,6 +254,10 @@ body, html{
         padding-bottom: .7vh;
         padding-left: 1.5vw;
         padding-right: 1.5vw;
+    }.navbar{
+        height: 33px;  
+    }#nameHeading{
+        font-size: 2em
     }
  }
  

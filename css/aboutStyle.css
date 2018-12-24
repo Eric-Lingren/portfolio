@@ -1,7 +1,7 @@
 body, html{
     margin: 0;
     padding: 0;
-    height: auto;
+    height: 100%;
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -11,11 +11,33 @@ body, html{
     background: linear-gradient(to left, #232526, #414345, #414345, #232526);
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+.aboutMeWrapper{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    color: white;
+    border-right: 2px white solid;
+    
+}
+#headShot{
+    width: 20vw;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+.aboutTextContainer{
+    width: 80%;
+    font-size: 1.1vw;
+}
+.badgeWrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .navbar{
@@ -52,12 +74,12 @@ body, html{
 }
 .badgeTitles{
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-bottom: .3em;
     margin-top: 30px;
 }
 .badgeContainer{
-    background-color: rgba(255,255,255,.6);
+    background-color: rgba(255,255,255,.5);
     border-radius: 1vw;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -69,45 +91,39 @@ body, html{
 }
 .badge{
     height: auto;
-    width: 7vw;
+    width: 5vw;
     margin: 10px;
 }
-/* #gsapBadge{
-    height: auto;
-    width: 300px;
-} */
+
 #jsBadge{
     height: auto;
-    width: 10vw;
+    width: 6.5vw;
 }
 #cssBadge{
     height: auto;
-    width: 11vw;
+    width: 7.5vw;
     margin-right: 0;
 }
 #mongodbBadge{
     height: auto;
-    width: 8vw;
+    width: 6vw;
 }
 #longBadges{
     height: auto;
-    width: 15vw;
-}
-#otherProficienciesContainer{
-    margin-bottom: 5%;
+    width: 10vw;
 }
 #photoshopBadge{
     margin-right: -1.5vw;
 }
 #ciscoBadge{
     height: auto;
-    width: 15vw;
+    width: 10vw;
     margin: 0;
     margin-right: -2vw;
 }
 #awsBadge{
     height: auto;
-    width: 8vw;
+    width: 6vw;
     margin-left: 1.5vw;
     margin-right: 1.5vw;
 }
