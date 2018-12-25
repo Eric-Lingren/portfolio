@@ -21,32 +21,34 @@ body, html{
     
 }
 
+#phoneIconLink{
+    margin-left: 10%;
+    margin-top: 5px;
+}
+#phoneIconLink:hover{
+    margin-left: 9%;
+}
 #contactIconPhone{
     width: 25px;
     margin-left: 10%;
-    
 }
 #contactIconPhone:hover{
     border: 2px solid black;
     border-radius: 50%;
-    padding: 5px;
-    margin-left: 9.1%;
     cursor: pointer;
+    padding: 5px;
 }
-#phoneNumber{
-    display: none;
-    margin-left: -27%;
+
+#emailIconLink{
+    margin-right: 10%;
+    margin-top: 5px;
+}
+#emailIconLink:hover{
+    margin-right: 9.77%;
 }
 #contactIconEmail{
     width: 40px;
     margin-right: 10%;
-}
-#emailiconLink{
-    margin-right: 10%;
-    margin-top: 5px;
-}
-#emailiconLink:hover{
-    margin-right: 9.77%;
 }
 #contactIconEmail:hover{
     border: 2px solid black;
