@@ -1,7 +1,28 @@
+// Modal logic for SmartGarden
+const smartgardenModal = document.getElementById('smartgardenModal');
+const modalBtnSmartgarden = document.getElementById('projectThumbnailSmartgarden');
+const closeBtnSmartgarden = document.getElementsByClassName('closeBtn')[0];
+
+modalBtnSmartgarden.addEventListener("click", openSmartgardenModal)
+closeBtnSmartgarden.addEventListener('click', closeSmartgardenModal)
+window.addEventListener('click', clickOutsideSmartgarden)
+
+function openSmartgardenModal(){
+    smartgardenModal.style.display = 'block'
+}
+function closeSmartgardenModal(){
+    smartgardenModal.style.display = 'none'
+}
+function clickOutsideSmartgarden(e){
+    if(e.target === smartgardenModal){
+        smartgardenModal.style.display = 'none'
+    }
+}
+
 // Modal logic for Blackjack
 const modal = document.getElementById('simpleModal');
 const modalBtnBlackjack = document.getElementById('projectThumbnailBlackjack');
-const closeBtn = document.getElementsByClassName('closeBtn')[0];
+const closeBtn = document.getElementsByClassName('closeBtn')[1];
 
 modalBtnBlackjack.addEventListener("click", openBlackjackModal)
 closeBtn.addEventListener('click', closeBlackjackModal)
@@ -22,7 +43,7 @@ function clickOutside(e){
 // Modal logic for Colossal
 const colossalModal = document.getElementById('colossalModal');
 const modalBtnColossal = document.getElementById('projectThumbnailColossal');
-const closeBtnColossal = document.getElementsByClassName('closeBtn')[1];
+const closeBtnColossal = document.getElementsByClassName('closeBtn')[2];
 
 modalBtnColossal.addEventListener("click", openColossalModal);
 closeBtnColossal.addEventListener('click', closeColossalModal)
@@ -43,7 +64,7 @@ function clickOutsideColossal(e){
 // Modal logic for Zen
 const zenModal = document.getElementById('zenModal');
 const modalBtnZen = document.getElementById('projectThumbnailZengarden');
-const closeBtnZen = document.getElementsByClassName('closeBtn')[2];
+const closeBtnZen = document.getElementsByClassName('closeBtn')[3];
 
 modalBtnZen.addEventListener("click", openZenModal);
 closeBtnZen.addEventListener('click', closeZenModal)
@@ -64,7 +85,7 @@ function clickOutsideZen(e){
 // Modal logic for Axios
 const axiosModal = document.getElementById('axiosModal');
 const modalBtnAxios = document.getElementById('projectThumbnailAxios');
-const closeBtnAxios = document.getElementsByClassName('closeBtn')[3];
+const closeBtnAxios = document.getElementsByClassName('closeBtn')[4];
 
 modalBtnAxios.addEventListener("click", openAxiosModal);
 closeBtnAxios.addEventListener('click', closeAxiosModal)
@@ -85,7 +106,7 @@ function clickOutsideAxios(e){
 // Modal logic for Business Time
 const businessModal = document.getElementById('businessModal');
 const modalBtnBusiness = document.getElementById('projectThumbnailBusiness');
-const closeBtnBusiness = document.getElementsByClassName('closeBtn')[4];
+const closeBtnBusiness = document.getElementsByClassName('closeBtn')[5];
 
 modalBtnBusiness.addEventListener("click", openBusinessModal);
 closeBtnBusiness.addEventListener('click', closeBusinessModal)

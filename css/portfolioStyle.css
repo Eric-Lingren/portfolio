@@ -57,6 +57,23 @@ a:hover{
     width: 100%;
     border-radius: 5px;
 }
+#projectThumbnailSmartgarden{
+    background-image: url('./images/smartgarden_screenshot.png');
+    background-size: cover;
+    margin-top: -2%;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: relative;
+    top: 1%;
+    height: 35%;
+    width: 100%;
+    
+}
+#projectThumbnailSmartgarden:hover{
+    width: 102%;
+    cursor: pointer;
+}
+
 #projectThumbnailBlackjack{
     background-image: url('./images/blackjack_screenshot.png');
     background-size: cover;

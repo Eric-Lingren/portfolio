@@ -217,12 +217,10 @@ body, html{
     margin-right: -9%;
     padding-right: 10px;
     cursor: default;
-    
 }
 #infoLogo{
     height: auto;
     width: 100%; 
-    
 }
 #resumeImageURL{
     width: 10%;
@@ -231,14 +229,11 @@ body, html{
     margin-left: -8.5%;
     padding-left: 10px; 
     cursor: default;
-    
 }
 #resumeLogo{
     height: 100%;
     width: 100%; 
-    
 }
-
 .icon{
   height: auto;
   width: 27%; 
@@ -246,16 +241,6 @@ body, html{
 }
 
 @media screen and (max-width: 425px ){
-    html {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 100vh;
-        height: 100vw;
-        overflow-x: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
-    }
     .textURL{
         font-size: 3vh;
     }
@@ -271,7 +256,13 @@ body, html{
     }.navbar{
         height: 33px;  
     }#nameHeading{
-        font-size: 2em
+        font-size: 1.8em
+    }
+    #contactIconPhone{
+        width: 20px;
+    }
+    #contactIconEmail{
+        width: 30px;
     }
  }
  
