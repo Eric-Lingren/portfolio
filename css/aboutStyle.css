@@ -198,7 +198,7 @@ p{
     #awsBadge{
         height: auto;
         width: 10vw;
-        margin-left: 2%;
+        margin-left: 5%;
     }
 }
 @media screen and (max-width: 375px) {

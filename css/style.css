@@ -94,7 +94,6 @@ body, html{
     height: 5%;
     display: flex;
     justify-content: center;
-    margin-top: -5%;
     
 }
 
@@ -222,6 +221,9 @@ body, html{
     }
     #contactIconEmail{
         width: 30px;
+    }
+    .titleWrapper{
+        margin-top: -5%;
     }
  }
  
