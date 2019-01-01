@@ -88,17 +88,13 @@ body, html{
     align-items: center;
     margin-left: -4%;
     margin-top: 0%;
-    margin-bottom: -1%;
 }
 .titleWrapper{
     width: 100%;
-    height: 20%;
+    height: auto;
     display: flex;
     justify-content: center;
-    
 }
-
-
 .textURL{
     color: #FFF;
     text-decoration: none;
