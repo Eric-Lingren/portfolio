@@ -79,48 +79,6 @@ body, html{
     flex-direction: column;
     justify-content: center;
 }
-.exitDiv{
-    position: absolute;
-    z-index: 0;
-    opacity: 0;
-}
-.exit{
-    height: 10vh;
-    width: 50vw;
-    
-    margin-top: 0;
-    padding-top: 0;  
-}
-#exit1{
-    background-color: black;
-}
-#exit2{
-    background-color: blue;
-}
-#exit3{
-    background-color: purple;
-}
-#exit4{
-    background-color: green;
-}
-#exit5{
-    background-color: orange;
-}
-#exit6{
-    background-color: black;
-}
-#exit7{
-    background-color: blue;
-}
-#exit8{
-    background-color: purple;
-}
-#exit9{
-    background-color: green;
-}
-#exit10{
-    background-color: orange;
-}
 
 .iconWrapper{
     width: 100%;
@@ -136,6 +94,7 @@ body, html{
     height: 5%;
     display: flex;
     justify-content: center;
+    margin-top: -5%;
     
 }
 

@@ -4,11 +4,12 @@ body, html{
     height: 100%;
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to left, #232526, #414345, #414345, #232526);
 }
 
 
 .pageWrapper{
-    background: linear-gradient(to left, #232526, #414345, #414345, #232526);
+   
     height: 100%;
     width: 100%;
     display: grid;
@@ -43,6 +44,7 @@ p{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: -5%;
 }
 
 .navbar{
@@ -153,9 +155,9 @@ p{
         grid-template-columns: 1fr;
     }
     .aboutTextContainer{
-        font-size: 3.3vw;
+        font-size: 3vw;
         margin-top: 1%;
-        margin-bottom: 0%;
+        margin-bottom: 5%;
     }
     #headShot{
         width: 40vw;
@@ -196,6 +198,7 @@ p{
     #awsBadge{
         height: auto;
         width: 10vw;
+        margin-left: 2%;
     }
 }
 @media screen and (max-width: 375px) {
