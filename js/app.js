@@ -73,7 +73,8 @@ const gitInCenter = () => {
     TweenMax.to(git, .25, {rotationY:0, height:'auto', width:'26%', x:'40%', y:'0%', 
         translateY:'-3%', transformPerspective: 600, ease: Power1.easeOut, 
         onComplete: function(){gitTitle.style.display = 'block'; 
-            git.href="https://github.com/Eric-Lingren"} 
+            git.href="https://github.com/Eric-Lingren"
+            git.target="_blank" } 
     });
     //  Makes the mouse cursor change depending wither the href tag has been added or removed from the image    
     isLinkClickable()
@@ -123,7 +124,8 @@ const linkedinInCenter = () => {
         {rotationY:0, height:'auto', width:'27%', x:'-35%', y:'0%', 
         translateY:'-3%', transformPerspective: 600, ease: Power1.easeOut, 
         onComplete: function(){linkedinTitle.style.display = 'block';
-            linkedin.href="https://www.linkedin.com/in/ericlingren/"} 
+            linkedin.href="https://www.linkedin.com/in/ericlingren/"
+            linkedin.target="_blank"} 
     }); 
     //  Makes the mouse cursor change depending wither the href tag has been added or removed from the image   
     isLinkClickable()

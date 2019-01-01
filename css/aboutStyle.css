@@ -142,15 +142,20 @@ p{
     }
 }
 @media screen and (max-width: 430px) {
+    .pageWrapper{
+        background: linear-gradient(to left, #232526, #414345, #414345, #232526);
+        height: 120%;
+    }
     .badgeTitles{
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
     .pageWrapper{
         grid-template-columns: 1fr;
     }
     .aboutTextContainer{
-        font-size: 2.5vw;
+        font-size: 2.9vw;
         margin-top: 1%;
+        margin-bottom: 15%;
     }
     #headShot{
         width: 40vw;
@@ -160,6 +165,37 @@ p{
     }
     .badgeWrapper{
         margin-top: -20%;
+    }
+    .badge{
+        width: 10vw;
+        height: auto;
+     }
+     #jsBadge{
+        height: auto;
+        width: 13vw;
+    }
+    #cssBadge{
+        height: auto;
+        width: 16vw;
+    }
+    #mongodbBadge{
+        height: auto;
+        width: 16vw;
+    }
+    #longBadges{
+        height: auto;
+        width: 25vw;
+    }
+    #ciscoBadge{
+        height: auto;
+        width: 17vw;
+        margin: 0;
+        margin-right: -2vw;
+        margin-left: 2vw;
+    }
+    #awsBadge{
+        height: auto;
+        width: 10vw;
     }
 }
 @media screen and (max-width: 375px) {
@@ -171,6 +207,7 @@ p{
         margin-left: 3vw;
         margin-right: -3vw;
     }
+   
 }
 
 
