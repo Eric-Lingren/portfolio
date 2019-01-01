@@ -1,0 +1,15 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to left, #232526, #414345, #414345, #232526);
+}
+.resumeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
