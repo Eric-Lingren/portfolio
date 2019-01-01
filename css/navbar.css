@@ -17,11 +17,12 @@
     justify-content: center;
     align-items: center;
 }
+
 .navLink{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
+    width: auto;
 }
 #aboutNavbarIcon{
     width: 30px;

@@ -44,7 +44,7 @@ p{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: -5%;
+    margin-top: 0%;
 }
 
 .navbar{
@@ -180,6 +180,10 @@ p{
         height: auto;
         width: 16vw;
     }
+    #nodeBadge{
+        height: auto;
+        width: 12vw;
+    }
     #mongodbBadge{
         height: auto;
         width: 16vw;
@@ -193,12 +197,12 @@ p{
         width: 17vw;
         margin: 0;
         margin-right: -2vw;
-        margin-left: 2vw;
+        margin-left: 3vw;
     }
     #awsBadge{
         height: auto;
         width: 10vw;
-        margin-left: 5%;
+        margin-left: 4vw;
     }
 }
 @media screen and (max-width: 375px) {
