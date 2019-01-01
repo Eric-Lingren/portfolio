@@ -80,6 +80,7 @@ body, html{
     justify-content: center;
 }
 
+
 .iconWrapper{
     width: 100%;
     height: auto;
@@ -91,10 +92,13 @@ body, html{
 }
 .titleWrapper{
     width: 100%;
-    height: auto;
+    height: 5%;
     display: flex;
     justify-content: center;
+    
 }
+
+
 .textURL{
     color: #FFF;
     text-decoration: none;
@@ -195,7 +199,6 @@ body, html{
   margin: 1%;
 }
 
-
 @media screen and (max-width: 425px ){
     .textURL{
         font-size: 3vh;
@@ -220,5 +223,5 @@ body, html{
     #contactIconEmail{
         width: 30px;
     }
-    
  }
+ 
