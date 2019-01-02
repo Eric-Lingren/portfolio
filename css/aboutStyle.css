@@ -134,6 +134,15 @@ p{
     margin-left: 1.5vw;
     margin-right: 1.5vw;
 }
+.travelLocations{
+    color: #99E6FF;
+    text-decoration: none;
+}
+.travelLocations:hover{
+    color: #99E6FF;
+    text-decoration: underline;
+    font-weight: 600;
+}
 
 @media screen and (max-width: 770px) {
     .aboutTextContainer{
