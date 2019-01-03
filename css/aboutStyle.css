@@ -143,6 +143,31 @@ p{
     text-decoration: underline;
     font-weight: 600;
 }
+.contactWrapper{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contactBox{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 9px 4px rgb(144, 143, 143);
+}
+.contactBox:hover{
+    box-shadow: 2px 4px 15px 6px rgb(144, 143, 143);
+}
+#contactIconPhone2{
+    width: 25px;
+}
+#contactIconEmail2{
+    width: 40px;
+}
 
 @media screen and (max-width: 770px) {
     .aboutTextContainer{
