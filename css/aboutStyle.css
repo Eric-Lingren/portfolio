@@ -168,6 +168,12 @@ p{
 #contactIconEmail2{
     width: 40px;
 }
+#contactIconPhone2:hover{
+    width: 26px;
+}
+#contactIconEmail2:hover{
+    width: 41px;
+}
 
 @media screen and (max-width: 770px) {
     .aboutTextContainer{

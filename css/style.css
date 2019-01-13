@@ -25,35 +25,25 @@ body, html{
     margin-left: 10%;
     margin-top: 5px;
 }
-#phoneIconLink:hover{
-    margin-left: 9%;
-}
 #contactIconPhone{
     width: 25px;
     margin-left: 10%;
 }
 #contactIconPhone:hover{
-    border: 2px solid black;
-    border-radius: 50%;
     cursor: pointer;
-    padding: 5px;
+    width: 26px;
 }
-
 #emailIconLink{
     margin-right: 10%;
     margin-top: 5px;
-}
-#emailIconLink:hover{
-    margin-right: 9.77%;
 }
 #contactIconEmail{
     width: 40px;
     margin-right: 10%;
 }
 #contactIconEmail:hover{
-    border: 2px solid black;
-    border-radius: 50%;
     cursor: pointer;
+    width: 41px;
 }
 
 #nameHeading{
