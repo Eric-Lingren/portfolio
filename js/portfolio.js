@@ -1,3 +1,24 @@
+// Modal logic for CryptoMinerz
+const cryptominerzModal = document.getElementById('cryptominerzModal');
+const modalBtnCryptominerz = document.getElementById('projectThumbnailCryptominerz');
+const closeBtnCryptominerz = document.getElementsByClassName('closeBtn')[0];
+
+modalBtnCryptominerz.addEventListener("click", openCryptominerzModal)
+closeBtnCryptominerz.addEventListener('click', closeCryptominerzModal)
+window.addEventListener('click', clickOutsideCryptominerz)
+
+function openCryptominerzModal(){
+    cryptominerzModal.style.display = 'block'
+}
+function closeCryptominerzModal(){
+    cryptominerzModal.style.display = 'none'
+}
+function clickOutsideCryptominerz(e){
+    if(e.target === cryptominerzModal){
+        cryptominerzModal.style.display = 'none'
+    }
+}
+
 // Modal logic for SmartGarden
 const smartgardenModal = document.getElementById('smartgardenModal');
 const modalBtnSmartgarden = document.getElementById('projectThumbnailSmartgarden');
