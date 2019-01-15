@@ -231,11 +231,10 @@ a:hover{
     margin-top: 4%;
     margin-bottom: -4%;
     text-shadow: 3px 3px #000;
-    font-weight: bolder;
     opacity: 0.8;
-    font-size: 1.1vw;
+    font-size: 1.3vw;
     letter-spacing: .1vw;
-    
+    text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
