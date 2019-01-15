@@ -22,7 +22,7 @@ function clickOutsideCryptominerz(e){
 // Modal logic for SmartGarden
 const smartgardenModal = document.getElementById('smartgardenModal');
 const modalBtnSmartgarden = document.getElementById('projectThumbnailSmartgarden');
-const closeBtnSmartgarden = document.getElementsByClassName('closeBtn')[0];
+const closeBtnSmartgarden = document.getElementsByClassName('closeBtn')[1];
 
 modalBtnSmartgarden.addEventListener("click", openSmartgardenModal)
 closeBtnSmartgarden.addEventListener('click', closeSmartgardenModal)
@@ -43,7 +43,7 @@ function clickOutsideSmartgarden(e){
 // Modal logic for Blackjack
 const modal = document.getElementById('simpleModal');
 const modalBtnBlackjack = document.getElementById('projectThumbnailBlackjack');
-const closeBtn = document.getElementsByClassName('closeBtn')[1];
+const closeBtn = document.getElementsByClassName('closeBtn')[2];
 
 modalBtnBlackjack.addEventListener("click", openBlackjackModal)
 closeBtn.addEventListener('click', closeBlackjackModal)
@@ -64,7 +64,7 @@ function clickOutside(e){
 // Modal logic for Colossal
 const colossalModal = document.getElementById('colossalModal');
 const modalBtnColossal = document.getElementById('projectThumbnailColossal');
-const closeBtnColossal = document.getElementsByClassName('closeBtn')[2];
+const closeBtnColossal = document.getElementsByClassName('closeBtn')[3];
 
 modalBtnColossal.addEventListener("click", openColossalModal);
 closeBtnColossal.addEventListener('click', closeColossalModal)
@@ -85,7 +85,7 @@ function clickOutsideColossal(e){
 // Modal logic for Zen
 const zenModal = document.getElementById('zenModal');
 const modalBtnZen = document.getElementById('projectThumbnailZengarden');
-const closeBtnZen = document.getElementsByClassName('closeBtn')[3];
+const closeBtnZen = document.getElementsByClassName('closeBtn')[4];
 
 modalBtnZen.addEventListener("click", openZenModal);
 closeBtnZen.addEventListener('click', closeZenModal)
