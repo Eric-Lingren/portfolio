@@ -12,21 +12,37 @@
 <body>
     <div class="navbar">
         <div class='navLinkWrapper'>
-            <a class='navLink' href='./about.html'>
-                <img id='aboutNavbarIcon' src='./css/images/infoIcon.png'>
-            </a>
-            <a class='navLink' href='https://github.com/Eric-Lingren' target="_blank">
-                <img id='gitNavbarIcon' src='./css/images/githubIcon.png'>
-            </a>
-            <a class='navLink' href='./index.html'>
-                <img id='homeNavbarIcon' src='./css/images/home.png'>
-            </a>
-            <a class='navLink' href='https://www.linkedin.com/in/ericlingren/' target="_blank">
-                <img id='linkedinNavbarIcon' src='./css/images/linkedinIcon.png'>
-            </a>
-            <a class='navLink' href='./resume.html'>
-                <img id='resumeNavbarIcon' src='./css/images/resumeIcon.png'>
-            </a>
+            <div class='nav-link-item-container' id='nav-link-item-container-about'>
+                <a class='navLink' href='./about.html'>
+                    <img id='aboutNavbarIcon' src='./css/images/infoIcon.png'>
+                </a>
+                <h5 class='nav-object-text' id='nav-object-text-about'>About</h5>
+            </div>
+            <div class='nav-link-item-container' id='nav-link-item-container-about'>
+                <a class='navLink' href='https://github.com/Eric-Lingren' target="_blank">
+                    <img id='gitNavbarIcon' src='./css/images/githubIcon.png'>
+                </a>
+                <h5 class='nav-object-text' id='nav-object-text-about'>Github</h5>
+            </div>
+            <div class='nav-link-item-container' id='nav-link-item-container-about'>
+                <a class='navLink' href='./index.html'>
+                    <img id='homeNavbarIcon' src='./css/images/home.png'>
+                </a>
+                <h5 class='nav-object-text' id='nav-object-text-about'>Home</h5>
+            </div>
+            <div class='nav-link-item-container' id='nav-link-item-container-about'>
+                <a class='navLink' href='https://www.linkedin.com/in/ericlingren/' target="_blank">
+                    <img id='linkedinNavbarIcon' src='./css/images/linkedinIcon.png'>
+                </a>
+                <h5 class='nav-object-text' id='nav-object-text-about'>LinkedIn</h5>
+            </div>
+            <div class='nav-link-item-container' id='nav-link-item-container-about'>
+                <a class='navLink' href='./resume.html'>
+                    <img id='resumeNavbarIcon' src='./css/images/resumeIcon.png'>
+                </a>
+                <h5 class='nav-object-text' id='nav-object-text-about'>Resume</h5>
+            </div>
+            
         </div>
     </div>
     <h1 class='projectHeader'>Projects:</h1>
@@ -103,33 +119,49 @@
         <div id="cryptominerzModal" class="modal">
             <div class="modal-content">
                 <span class="closeBtn">&times;</span>
-                <img class='modalImage' src="./css/images/cryptominerz_screenshot.png">
+                <h4 class='modal-text-description'>This site is on Heroku which sleeps the app on their servers.  <br>
+                    It may take 15-30 seconds to boot the server for the first time.
+                </h4>
+                <a href='http://cryptominerz.herokuapp.com/' target="_blank">
+                    <img class='modalImage' src="./css/images/cryptominerz_screenshot.png">
+                </a>
             </div>
         </div>
 
         <div id="smartgardenModal" class="modal">
             <div class="modal-content">
                 <span class="closeBtn">&times;</span>
-                <img class='modalImage' src="./css/images/smartgarden_screenshot.png">
+                <h4 class='modal-text-description'>This site is on Heroku which sleeps the app on their servers.  <br>
+                    It may take 15-30 seconds to boot the server for the first time.
+                </h4>
+                <a href='https://smart-garden-planting.herokuapp.com/' target="_blank">
+                    <img class='modalImage' src="./css/images/smartgarden_screenshot.png">
+                </a>
             </div>
         </div>
 
         <div id="simpleModal" class="modal">
             <div class="modal-content">
                 <span class="closeBtn">&times;</span>
-                <img class='modalImage' src="./css/images/blackjack_screenshot.png">
+                <a href='http://blackjack-for-cardcounters.surge.sh/#/' target="_blank">
+                    <img class='modalImage' src="./css/images/blackjack_screenshot.png">
+                </a>
             </div>
         </div>
         <div id="colossalModal" class="modal">
             <div class="modal-content">
                 <span class="closeBtn">&times;</span>
-                <img class='modalImage' src="./css/images/colossal_adventure_screenshot.png">
+                <a href='https://github.com/Eric-Lingren/colossal_adventure' target="_blank">
+                    <img class='modalImage' src="./css/images/colossal_adventure_screenshot.png">
+                </a>
             </div>
         </div>
         <div id="zenModal" class="modal">
             <div class="modal-content">
                 <span class="closeBtn">&times;</span>
-                <img class='modalImage' src="./css/images/zengarden_screenshot.png">
+                <a href='http://zengarden.surge.sh/' target="_blank">
+                    <img class='modalImage' src="./css/images/zengarden_screenshot.png">
+                </a>
             </div>
         </div>
     </div>

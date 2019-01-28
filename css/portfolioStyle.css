@@ -236,6 +236,10 @@ a:hover{
     letter-spacing: .1vw;
     text-align: center;
 }
+.modal-text-description{
+    color: black;
+    text-align: center;
+}
 
 @media screen and (max-width: 1000px) {
     .pageWrapper{

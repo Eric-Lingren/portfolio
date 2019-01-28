@@ -16,8 +16,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
-
+.nav-link-item-container{
+    display: flex;
+    flex-direction: column;
+}
+.nav-object-text{
+    margin: 0;
+    padding: 0;
+    margin-left: -3%;
+}
 .navLink{
     display: flex;
     justify-content: center;
@@ -26,139 +37,42 @@
 }
 #aboutNavbarIcon{
     width: 30px;
-    transition-duration: .2s;
+}
+#nav-object-text-about{
+    opacity: 0;
+    color: black;
+    transition-duration: .3s;
     transition-timing-function: ease-out;
-    margin-right: 10vw;
+}
+#nav-object-text-about:hover{
+    opacity: 1;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
 }
 #gitNavbarIcon{
     width: 30px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    margin-right: 5vw;
 }
 #homeNavbarIcon{
     width: 30px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    margin-left: 5vw;
-    margin-right: 5vw;
 }
 #linkedinNavbarIcon{
     width: 30px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    margin-left: 5vw;
-    
 }
 #resumeNavbarIcon{
     width: 25px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    margin-left: 10vw;
 }
 #portfolioNavbarIconResumePage{
     width: 30px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
     margin-left: 10vw;
 }
 #portfolioNavbarIconAboutPage{
     width: 30px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
     margin-right: 10vw;
 }
 
-#aboutNavbarIcon:hover{
-    width: 35px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    border-radius: 50%;
-    border: 2px solid black;
-    padding: 3px;
-}
-#gitNavbarIcon:hover{
-    width: 35px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    border-radius: 50%;
-    border: 2px solid black;
-    padding: 3px;
-}
-#homeNavbarIcon:hover{
-    width: 35px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    border-radius: 50%;
-    border: 2px solid black;
-    padding: 3px;
-}
-#linkedinNavbarIcon:hover{
-    width: 35px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    border-radius: 50%;
-    border: 2px solid black;
-    padding: 3px;
-}
-#resumeNavbarIcon:hover{
-    width: 30px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    border-radius: 50%;
-    border: 2px solid black;
-    padding: 3px;
-    padding-left: 6px;
-    padding-right: 6px;
-}
-#portfolioNavbarIconResumePage:hover{
-    width: 35px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    border-radius: 50%;
-    border: 2px solid black;
-    padding: 3px;
-}
-#portfolioNavbarIconAboutPage:hover{
-    width: 35px;
-    transition-duration: .2s;
-    transition-timing-function: ease-out;
-    border-radius: 50%;
-    border: 2px solid black;
-    padding: 3px;
-}
-
-/* @media screen and (max-width: 1000px) {
-    #aboutNavbarIcon{
-        left: 27%;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    #gitNavbarIcon{
-        left: 35%;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    #homeNavbarIcon{
-        left: 43%;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    #linkedinNavbarIcon{
-        left: 51%;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    #resumeNavbarIcon{
-        left: 59%;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-} */
 #contactIconPhone{
     width: 25px;
     margin-left: 5%;
-    
 }
 #contactIconPhone:hover{
     border: 2px solid black;
