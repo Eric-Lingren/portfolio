@@ -144,3 +144,4 @@ function clickOutsideBusiness(e){
         businessModal.style.display = 'none'
     }
 }
+

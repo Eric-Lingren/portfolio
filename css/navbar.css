@@ -49,6 +49,50 @@
     transition-duration: .3s;
     transition-timing-function: ease-out;
 }
+#nav-object-text-github {
+    opacity: 0;
+    color: black;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+#nav-object-text-github:hover{
+    opacity: 1;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+#nav-object-text-home {
+    opacity: 0;
+    color: black;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+#nav-object-text-home:hover{
+    opacity: 1;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+#nav-object-text-linkedin {
+    opacity: 0;
+    color: black;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+#nav-object-text-linkedin:hover{
+    opacity: 1;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+#nav-object-text-resume {
+    opacity: 0;
+    color: black;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+#nav-object-text-resume:hover{
+    opacity: 1;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
 #gitNavbarIcon{
     width: 30px;
 }

@@ -27,6 +27,29 @@ body, html{
     border: 1px solid black;
     box-shadow: 1px 2px 9px 4px rgb(144, 143, 143);
 }
+
+.resume-action-wrapper{
+    margin-top: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid black;
+    flex-direction: column;
+}
+.resume-action-wrapper:hover{
+    box-shadow: 1px 2px 9px 4px rgb(144, 143, 143);
+}
+.nav-object-text-for-resume{
+    margin: 0;
+    color: black;
+}
+#resumeIconLink2{
+    margin-top: 5px;
+}
+
 .aboutTextContainer{
     width: 80%;
     font-size: 1.1vw;
