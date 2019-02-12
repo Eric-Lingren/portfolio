@@ -1,7 +1,28 @@
+// Modal logic for Infinity Investments
+const infinityModal = document.getElementById('infinityModal');
+const modalBtnInfinity = document.getElementById('projectThumbnailInfinity');
+const closeBtnInfinity = document.getElementsByClassName('closeBtn')[0];
+
+modalBtnInfinity.addEventListener("click", openInfinityModal)
+closeBtnInfinity.addEventListener('click', closeInfinityModal)
+window.addEventListener('click', clickOutsideInfinity)
+
+function openInfinityModal(){
+    infinityModal.style.display = 'block'
+}
+function closeInfinityModal(){
+    infinityModal.style.display = 'none'
+}
+function clickOutsideInfinity(e){
+    if(e.target === infinityModal){
+        infinityModal.style.display = 'none'
+    }
+}
+
 // Modal logic for CryptoMinerz
 const cryptominerzModal = document.getElementById('cryptominerzModal');
 const modalBtnCryptominerz = document.getElementById('projectThumbnailCryptominerz');
-const closeBtnCryptominerz = document.getElementsByClassName('closeBtn')[0];
+const closeBtnCryptominerz = document.getElementsByClassName('closeBtn')[1];
 
 modalBtnCryptominerz.addEventListener("click", openCryptominerzModal)
 closeBtnCryptominerz.addEventListener('click', closeCryptominerzModal)
@@ -22,7 +43,7 @@ function clickOutsideCryptominerz(e){
 // Modal logic for SmartGarden
 const smartgardenModal = document.getElementById('smartgardenModal');
 const modalBtnSmartgarden = document.getElementById('projectThumbnailSmartgarden');
-const closeBtnSmartgarden = document.getElementsByClassName('closeBtn')[1];
+const closeBtnSmartgarden = document.getElementsByClassName('closeBtn')[2];
 
 modalBtnSmartgarden.addEventListener("click", openSmartgardenModal)
 closeBtnSmartgarden.addEventListener('click', closeSmartgardenModal)
@@ -43,7 +64,7 @@ function clickOutsideSmartgarden(e){
 // Modal logic for Blackjack
 const modal = document.getElementById('simpleModal');
 const modalBtnBlackjack = document.getElementById('projectThumbnailBlackjack');
-const closeBtn = document.getElementsByClassName('closeBtn')[2];
+const closeBtn = document.getElementsByClassName('closeBtn')[3];
 
 modalBtnBlackjack.addEventListener("click", openBlackjackModal)
 closeBtn.addEventListener('click', closeBlackjackModal)
@@ -64,7 +85,7 @@ function clickOutside(e){
 // Modal logic for Colossal
 const colossalModal = document.getElementById('colossalModal');
 const modalBtnColossal = document.getElementById('projectThumbnailColossal');
-const closeBtnColossal = document.getElementsByClassName('closeBtn')[3];
+const closeBtnColossal = document.getElementsByClassName('closeBtn')[4];
 
 modalBtnColossal.addEventListener("click", openColossalModal);
 closeBtnColossal.addEventListener('click', closeColossalModal)
@@ -85,7 +106,7 @@ function clickOutsideColossal(e){
 // Modal logic for Zen
 const zenModal = document.getElementById('zenModal');
 const modalBtnZen = document.getElementById('projectThumbnailZengarden');
-const closeBtnZen = document.getElementsByClassName('closeBtn')[4];
+const closeBtnZen = document.getElementsByClassName('closeBtn')[5];
 
 modalBtnZen.addEventListener("click", openZenModal);
 closeBtnZen.addEventListener('click', closeZenModal)
@@ -106,7 +127,7 @@ function clickOutsideZen(e){
 // Modal logic for Axios
 const axiosModal = document.getElementById('axiosModal');
 const modalBtnAxios = document.getElementById('projectThumbnailAxios');
-const closeBtnAxios = document.getElementsByClassName('closeBtn')[4];
+const closeBtnAxios = document.getElementsByClassName('closeBtn')[6];
 
 modalBtnAxios.addEventListener("click", openAxiosModal);
 closeBtnAxios.addEventListener('click', closeAxiosModal)
@@ -127,7 +148,7 @@ function clickOutsideAxios(e){
 // Modal logic for Business Time
 const businessModal = document.getElementById('businessModal');
 const modalBtnBusiness = document.getElementById('projectThumbnailBusiness');
-const closeBtnBusiness = document.getElementsByClassName('closeBtn')[5];
+const closeBtnBusiness = document.getElementsByClassName('closeBtn')[7];
 
 modalBtnBusiness.addEventListener("click", openBusinessModal);
 closeBtnBusiness.addEventListener('click', closeBusinessModal)

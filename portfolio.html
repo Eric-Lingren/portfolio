@@ -47,6 +47,20 @@
     </div>
     <h1 class='projectHeader'>Projects:</h1>
     <div class='pageWrapper'>
+
+        <div class='tile'>
+            <div id='projectThumbnailInfinity'> </div>
+            <h3 class='projectTitle'>Infinity Investments</h3>
+            <p class='projectDescription'>
+                    A full stack business site which maps over large sets of historical trade data provided from my forex broker. The app converts the data into interactive visualizations built with D3 and GreenSock.
+            </p>
+            <p class='builtWith , projectDescription'>Built with React, Express, MongoDB, GreenSock, D3 & JavaScript ES6 </p>
+            <div class='projectLinkContainer'>
+                <a href='http://infinity-investments.herokuapp.com/' target="_blank">Live</a>
+                <a href='https://github.com/Eric-Lingren/infinity_investments' target="_blank">Git</a>
+            </div>
+        </div>
+
         <div class='tile'>
             <div id='projectThumbnailCryptominerz'> </div>
             <h3 class='projectTitle'>Crypto Minerz</h3>
@@ -115,7 +129,19 @@
                 <a href='http://www.csszengarden.com/' target="_blank">Original</a>
             </div>
         </div>
-        
+
+        <div id="infinityModal" class="modal">
+            <div class="modal-content">
+                <span class="closeBtn">&times;</span>
+                <h4 class='modal-text-description'>This site is on Heroku which sleeps the app on their servers.  <br>
+                    It may take 15-30 seconds to boot the server for the first time.
+                </h4>
+                <a href='http://infinity-investments.herokuapp.com/' target="_blank">
+                    <img class='modalImage' src="./css/images/infinity_screenshot.png">
+                </a>
+            </div>
+        </div>
+
         <div id="cryptominerzModal" class="modal">
             <div class="modal-content">
                 <span class="closeBtn">&times;</span>
