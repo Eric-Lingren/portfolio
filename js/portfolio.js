@@ -124,45 +124,68 @@ function clickOutsideZen(e){
     }
 }
 
-// Modal logic for Axios
-const axiosModal = document.getElementById('axiosModal');
-const modalBtnAxios = document.getElementById('projectThumbnailAxios');
-const closeBtnAxios = document.getElementsByClassName('closeBtn')[6];
 
-modalBtnAxios.addEventListener("click", openAxiosModal);
-closeBtnAxios.addEventListener('click', closeAxiosModal)
-window.addEventListener('click', clickOutsideAxios)
+// Modal logic for NPM
+const npmModal = document.getElementById('npmModal');
+const modalBtnNpm = document.getElementById('projectThumbnailNpm');
+const closeBtnNpm = document.getElementsByClassName('closeBtn')[6];
 
-function openAxiosModal(){
-    axiosModal.style.display = 'block'
+modalBtnNpm.addEventListener("click", openNpmModal);
+closeBtnNpm.addEventListener('click', closeNpmModal)
+window.addEventListener('click', clickOutsideNpm)
+
+function openNpmModal(){
+    npmModal.style.display = 'block'
 }
-function closeAxiosModal(){
-    axiosModal.style.display = 'none'
+function closeNpmModal(){
+    npmModal.style.display = 'none'
 }
-function clickOutsideAxios(e){
-    if(e.target === axiosModal){
-        axiosModal.style.display = 'none'
+function clickOutsideNpm(e){
+    if(e.target === npmModal){
+        npmModal.style.display = 'none'
     }
 }
 
-// Modal logic for Business Time
-const businessModal = document.getElementById('businessModal');
-const modalBtnBusiness = document.getElementById('projectThumbnailBusiness');
-const closeBtnBusiness = document.getElementsByClassName('closeBtn')[7];
 
-modalBtnBusiness.addEventListener("click", openBusinessModal);
-closeBtnBusiness.addEventListener('click', closeBusinessModal)
-window.addEventListener('click', clickOutsideBusiness)
+// // Modal logic for Axios
+// const axiosModal = document.getElementById('axiosModal');
+// const modalBtnAxios = document.getElementById('projectThumbnailAxios');
+// const closeBtnAxios = document.getElementsByClassName('closeBtn')[6];
 
-function openBusinessModal(){
-    businessModal.style.display = 'block'
-}
-function closeBusinessModal(){
-    businessModal.style.display = 'none'
-}
-function clickOutsideBusiness(e){
-    if(e.target === businessModal){
-        businessModal.style.display = 'none'
-    }
-}
+// modalBtnAxios.addEventListener("click", openAxiosModal);
+// closeBtnAxios.addEventListener('click', closeAxiosModal)
+// window.addEventListener('click', clickOutsideAxios)
+
+// function openAxiosModal(){
+//     axiosModal.style.display = 'block'
+// }
+// function closeAxiosModal(){
+//     axiosModal.style.display = 'none'
+// }
+// function clickOutsideAxios(e){
+//     if(e.target === axiosModal){
+//         axiosModal.style.display = 'none'
+//     }
+// }
+
+// // Modal logic for Business Time
+// const businessModal = document.getElementById('businessModal');
+// const modalBtnBusiness = document.getElementById('projectThumbnailBusiness');
+// const closeBtnBusiness = document.getElementsByClassName('closeBtn')[7];
+
+// modalBtnBusiness.addEventListener("click", openBusinessModal);
+// closeBtnBusiness.addEventListener('click', closeBusinessModal)
+// window.addEventListener('click', clickOutsideBusiness)
+
+// function openBusinessModal(){
+//     businessModal.style.display = 'block'
+// }
+// function closeBusinessModal(){
+//     businessModal.style.display = 'none'
+// }
+// function clickOutsideBusiness(e){
+//     if(e.target === businessModal){
+//         businessModal.style.display = 'none'
+//     }
+// }
 

@@ -150,8 +150,8 @@ a:hover{
     width: 102%;
     cursor: pointer;
 }
-#projectThumbnailAxios{
-    background-image: url('./images/axios_todo_screenshot.png');
+#projectThumbnailNpm{
+    background-image: url('./images/NPM_screenshot.png');
     background-size: cover;
     height: 40%;
     width: 100%;
@@ -161,22 +161,7 @@ a:hover{
     position: relative;
     top: 1%;
 }
-#projectThumbnailAxios:hover{
-    width: 102%;
-    cursor: pointer;
-}
-#projectThumbnailBusiness{
-    background-image: url('./images/business_time_screenshot.png');
-    background-size: cover;
-    height: 40%;
-    width: 100%;
-    margin-top: -2%;
-    border-radius: 10px;
-    border: 1px solid white;
-    position: relative;
-    top: 1%;
-}
-#projectThumbnailBusiness:hover{
+#projectThumbnailNpm:hover{
     width: 102%;
     cursor: pointer;
 }
