@@ -1,7 +1,29 @@
+// Modal logic for Count Champ
+const countChampModal = document.getElementById('countChampModal');
+const modalBtnCountChamp = document.getElementById('projectThumbnailCountChamp');
+const closeBtnCountChamp = document.getElementsByClassName('closeBtn')[0];
+
+modalBtnCountChamp.addEventListener("click", openCountChampModal)
+closeBtnCountChamp.addEventListener('click', closeCountChampModal)
+window.addEventListener('click', clickOutsideCountChamp)
+
+function openCountChampModal(){
+    countChampModal.style.display = 'block'
+}
+function closeCountChampModal(){
+    countChampModal.style.display = 'none'
+}
+function clickOutsideCountChamp(e){
+    if(e.target === countChampModal){
+        countChampModal.style.display = 'none'
+    }
+}
+
+
 // Modal logic for Infinity Investments
 const infinityModal = document.getElementById('infinityModal');
 const modalBtnInfinity = document.getElementById('projectThumbnailInfinity');
-const closeBtnInfinity = document.getElementsByClassName('closeBtn')[0];
+const closeBtnInfinity = document.getElementsByClassName('closeBtn')[1];
 
 modalBtnInfinity.addEventListener("click", openInfinityModal)
 closeBtnInfinity.addEventListener('click', closeInfinityModal)
@@ -22,7 +44,7 @@ function clickOutsideInfinity(e){
 // Modal logic for CryptoMinerz
 const cryptominerzModal = document.getElementById('cryptominerzModal');
 const modalBtnCryptominerz = document.getElementById('projectThumbnailCryptominerz');
-const closeBtnCryptominerz = document.getElementsByClassName('closeBtn')[1];
+const closeBtnCryptominerz = document.getElementsByClassName('closeBtn')[2];
 
 modalBtnCryptominerz.addEventListener("click", openCryptominerzModal)
 closeBtnCryptominerz.addEventListener('click', closeCryptominerzModal)
@@ -43,7 +65,7 @@ function clickOutsideCryptominerz(e){
 // Modal logic for SmartGarden
 const smartgardenModal = document.getElementById('smartgardenModal');
 const modalBtnSmartgarden = document.getElementById('projectThumbnailSmartgarden');
-const closeBtnSmartgarden = document.getElementsByClassName('closeBtn')[2];
+const closeBtnSmartgarden = document.getElementsByClassName('closeBtn')[3];
 
 modalBtnSmartgarden.addEventListener("click", openSmartgardenModal)
 closeBtnSmartgarden.addEventListener('click', closeSmartgardenModal)
@@ -64,7 +86,7 @@ function clickOutsideSmartgarden(e){
 // Modal logic for Blackjack
 const modal = document.getElementById('simpleModal');
 const modalBtnBlackjack = document.getElementById('projectThumbnailBlackjack');
-const closeBtn = document.getElementsByClassName('closeBtn')[3];
+const closeBtn = document.getElementsByClassName('closeBtn')[4];
 
 modalBtnBlackjack.addEventListener("click", openBlackjackModal)
 closeBtn.addEventListener('click', closeBlackjackModal)
@@ -85,7 +107,7 @@ function clickOutside(e){
 // Modal logic for Colossal
 const colossalModal = document.getElementById('colossalModal');
 const modalBtnColossal = document.getElementById('projectThumbnailColossal');
-const closeBtnColossal = document.getElementsByClassName('closeBtn')[4];
+const closeBtnColossal = document.getElementsByClassName('closeBtn')[5];
 
 modalBtnColossal.addEventListener("click", openColossalModal);
 closeBtnColossal.addEventListener('click', closeColossalModal)
@@ -106,7 +128,7 @@ function clickOutsideColossal(e){
 // Modal logic for Zen
 const zenModal = document.getElementById('zenModal');
 const modalBtnZen = document.getElementById('projectThumbnailZengarden');
-const closeBtnZen = document.getElementsByClassName('closeBtn')[5];
+const closeBtnZen = document.getElementsByClassName('closeBtn')[6];
 
 modalBtnZen.addEventListener("click", openZenModal);
 closeBtnZen.addEventListener('click', closeZenModal)
@@ -128,7 +150,7 @@ function clickOutsideZen(e){
 // Modal logic for NPM
 const npmModal = document.getElementById('npmModal');
 const modalBtnNpm = document.getElementById('projectThumbnailNpm');
-const closeBtnNpm = document.getElementsByClassName('closeBtn')[6];
+const closeBtnNpm = document.getElementsByClassName('closeBtn')[7];
 
 modalBtnNpm.addEventListener("click", openNpmModal);
 closeBtnNpm.addEventListener('click', closeNpmModal)
