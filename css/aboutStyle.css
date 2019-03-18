@@ -129,6 +129,10 @@ p{
     width: 7.5vw;
     margin-right: 0;
 }
+#reactNativeBadge{
+    height: auto;
+    width: 8vw;
+}
 #mongodbBadge{
     height: auto;
     width: 6vw;
@@ -229,6 +233,7 @@ p{
     .badge{
         width: 10vw;
         height: auto;
+        margin: 10px 3px 10px 3px;
     }
     #jsBadge{
         height: auto;
@@ -237,6 +242,10 @@ p{
     #cssBadge{
         height: auto;
         width: 16vw;
+    }
+    #reactNativeBadge{
+        height: auto;
+        width: 15vw;
     }
     #nodeBadge{
         height: auto;
@@ -266,7 +275,7 @@ p{
 @media screen and (max-width: 375px) {
     #awsBadge{
         margin-right: 2vw;
-        margin-left: -2vw;
+        margin-left: 4vw;
     }
     #photoshopBadge{
         margin-left: 3vw;
