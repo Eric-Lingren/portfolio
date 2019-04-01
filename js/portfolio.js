@@ -1,213 +1,113 @@
-// Modal logic for Count Champ
-const countChampModal = document.getElementById('countChampModal');
-const modalBtnCountChamp = document.getElementById('projectThumbnailCountChamp');
-const closeBtnCountChamp = document.getElementsByClassName('closeBtn')[0];
+let projects = [
+    {
+        title : 'Count Champ',
+        imageUrl : '../files/thumbnails/countchamp_screenshot.png',
+        description : 'A CRUD React Native app available for download on Google Play that teaches players the nuances of card counting.  Uses SQLite for database management of user stats in local storage and Axios for deck and card management.',
+        builtWith: 'Built with React Native, Android Studio, SQLite and Expo',
+        liveLink : 'https://play.google.com/store/apps/details?id=com.cardchamp.countchamp&         rdid=com.cardchamp.countchampprojectLinkContainer',
+        githubLink : 'https://github.com/Eric-Lingren/react_native/tree/master/count_champ',
+    },
+    {
+        title : 'Infinity Investments',
+        imageUrl : '../files/thumbnails/infinity_screenshot.png',
+        description : 'A full stack business site which maps over large sets of historical trade data provided from my forex broker. The app converts the data into interactive visualizations built with D3 and GreenSock.',
+        builtWith: 'Built with React, Express, MongoDB, GreenSock, D3 & JavaScript ES6',
+        liveLink : 'http://infinity-investments.herokuapp.com/',
+        githubLink : 'https://github.com/Eric-Lingren/infinity_investments',
+    },
+    {
+        title : 'Crypto Minerz',
+        imageUrl : '../files/thumbnails/cryptominerz_screenshot.png',
+        description : 'This full stack e-commerce site was collaboratively built with 2 friends. It uses the BestBuy API to                 market GPUs and other mining hardware. Includes a wishlist, cart, checkout, profile, and user                       authentication.',
+        builtWith: 'Built with ReactStrap, JavaScript, MongoDB, Express, Node.js & CSS',
+        liveLink : 'http://cryptominerz.herokuapp.com/',
+        githubLink : 'https://github.com/jmc90/vcommerce-v2',
+    },
+    {
+        title : 'SmartGarden',
+        imageUrl : '../files/thumbnails/smartgarden_screenshot.png',
+        description : 'This is a MERN full stack app. It makes Axios requests to a MongoDB which allows adding, removing                   and saving plants or gardens. It also provides custom plant recommendations based on companion                       planting.',
+        builtWith: 'Built with React, MongoDB, Express, Mongoose, Node.js, JavaScript ES6 & CSS',
+        liveLink : 'https://smart-garden-planting.herokuapp.com/',
+        githubLink : 'https://github.com/Eric-Lingren/smartgarden',
+    },
+    {
+        title : 'Blackjack',
+        imageUrl : '../files/thumbnails/blackjack_screenshot.png',
+        description : 'This is a front-end React application that is not your average Blackjack game.  It is designed to                   teach players how to count cards and maintains comprehensive game analytics.  It uses the Deck of                    Cards API to provide deck, card, and shuffle functionality.',
+        builtWith: 'Built with React, ES6 & CSS',
+        liveLink : 'https://blackjack-for-cardcounters.netlify.com/#/',
+        githubLink : 'https://github.com/Eric-Lingren/blackjack_project',
+    },
+    {
+        title : 'Colossal Adventure',
+        imageUrl : '../files/thumbnails/colossal_adventure_screenshot.png',
+        description : 'A text-based RPG that utilizes readline-sync to accept user input and provide interaction directly                   within the console. This was my first logic heavy project and I included npm-play for sound effects                  and ASCII art for an immersive game.',
+        builtWith: 'Built with Node.js & JavaScript',
+        liveLink : 'https://github.com/Eric-Lingren/colossal_adventure',
+        githubLink : 'https://github.com/Eric-Lingren/colossal_adventure',
+    },
+    {
+        title : 'CSS Zen Garden',
+        imageUrl : '../files/thumbnails/zengarden_screenshot.png',
+        description : 'A fully responsive front-end site created as a clone of the original based solely on a PSD. This                     illustrates the ability to replicate ideas from a design team\'s mock-ups and implement those into a                 fully realized project. Landing page only.',
+        builtWith: 'Built with HTML5 & CSS3',
+        liveLink : 'http://zengarden.surge.sh/',
+        githubLink : 'https://github.com/Eric-Lingren/zen_garden_project',
+    },
+    {
+        title : 'NPM Packages',
+        imageUrl : '../files/thumbnails/npm_screenshot.png',
+        description : 'This is the list of all the NPM packages I have built.  One to remove all whitspace from a string.                   Another to parse out specific information from the current date and time displayed by the users                      system.  Links are in the Git repo readme.',
+        builtWith: 'Built with Node.js, NPM & JavaScript',
+        liveLink : 'https://www.npmjs.com/package/@fxhacker/get_date',
+        githubLink : 'https://github.com/Eric-Lingren/npm_projects',
+    },
+]
 
-modalBtnCountChamp.addEventListener("click", openCountChampModal)
-closeBtnCountChamp.addEventListener('click', closeCountChampModal)
-window.addEventListener('click', clickOutsideCountChamp)
+let container = document.getElementById('pageWrapper')
 
-function openCountChampModal(){
-    countChampModal.style.display = 'block'
+for (let i = 0; i < projects.length; i++) {
+    const projectContainer = document.createElement('div')
+    projectContainer.classList.add('tile')
+
+    let image = document.createElement('img');
+    image.classList.add('project-image');
+    image.setAttribute('src', projects[i].imageUrl);
+    projectContainer.appendChild(image);
+    
+    let title = document.createElement('h3');
+    title.classList.add('project-title'); 
+    title.textContent = projects[i].title;
+    projectContainer.appendChild(title);
+
+    let description = document.createElement('p');
+    description.classList.add('project-description');
+    description.textContent = projects[i].description;
+    projectContainer.appendChild(description);
+
+    let builtWith = document.createElement('p');
+    builtWith.classList.add('builtWith');
+    builtWith.textContent = projects[i].builtWith;
+    projectContainer.appendChild(builtWith);
+
+    let linksContainer = document.createElement('div')
+    linksContainer.classList.add('links-container')
+    projectContainer.appendChild(linksContainer);
+
+
+    let liveLink = document.createElement('a');
+    liveLink.href = projects[i].liveLink;
+    liveLink.textContent = 'Live';
+    liveLink.target = '_blank';
+    linksContainer.appendChild(liveLink);
+
+    let gitLink = document.createElement('a');
+    gitLink.href = projects[i].gitLink;
+    gitLink.textContent = 'Git';
+    gitLink.target = '_blank';
+    linksContainer.appendChild(gitLink);
+
+    container.appendChild(projectContainer);
 }
-function closeCountChampModal(){
-    countChampModal.style.display = 'none'
-}
-function clickOutsideCountChamp(e){
-    if(e.target === countChampModal){
-        countChampModal.style.display = 'none'
-    }
-}
-
-
-// Modal logic for Infinity Investments
-const infinityModal = document.getElementById('infinityModal');
-const modalBtnInfinity = document.getElementById('projectThumbnailInfinity');
-const closeBtnInfinity = document.getElementsByClassName('closeBtn')[1];
-
-modalBtnInfinity.addEventListener("click", openInfinityModal)
-closeBtnInfinity.addEventListener('click', closeInfinityModal)
-window.addEventListener('click', clickOutsideInfinity)
-
-function openInfinityModal(){
-    infinityModal.style.display = 'block'
-}
-function closeInfinityModal(){
-    infinityModal.style.display = 'none'
-}
-function clickOutsideInfinity(e){
-    if(e.target === infinityModal){
-        infinityModal.style.display = 'none'
-    }
-}
-
-// Modal logic for CryptoMinerz
-const cryptominerzModal = document.getElementById('cryptominerzModal');
-const modalBtnCryptominerz = document.getElementById('projectThumbnailCryptominerz');
-const closeBtnCryptominerz = document.getElementsByClassName('closeBtn')[2];
-
-modalBtnCryptominerz.addEventListener("click", openCryptominerzModal)
-closeBtnCryptominerz.addEventListener('click', closeCryptominerzModal)
-window.addEventListener('click', clickOutsideCryptominerz)
-
-function openCryptominerzModal(){
-    cryptominerzModal.style.display = 'block'
-}
-function closeCryptominerzModal(){
-    cryptominerzModal.style.display = 'none'
-}
-function clickOutsideCryptominerz(e){
-    if(e.target === cryptominerzModal){
-        cryptominerzModal.style.display = 'none'
-    }
-}
-
-// Modal logic for SmartGarden
-const smartgardenModal = document.getElementById('smartgardenModal');
-const modalBtnSmartgarden = document.getElementById('projectThumbnailSmartgarden');
-const closeBtnSmartgarden = document.getElementsByClassName('closeBtn')[3];
-
-modalBtnSmartgarden.addEventListener("click", openSmartgardenModal)
-closeBtnSmartgarden.addEventListener('click', closeSmartgardenModal)
-window.addEventListener('click', clickOutsideSmartgarden)
-
-function openSmartgardenModal(){
-    smartgardenModal.style.display = 'block'
-}
-function closeSmartgardenModal(){
-    smartgardenModal.style.display = 'none'
-}
-function clickOutsideSmartgarden(e){
-    if(e.target === smartgardenModal){
-        smartgardenModal.style.display = 'none'
-    }
-}
-
-// Modal logic for Blackjack
-const modal = document.getElementById('simpleModal');
-const modalBtnBlackjack = document.getElementById('projectThumbnailBlackjack');
-const closeBtn = document.getElementsByClassName('closeBtn')[4];
-
-modalBtnBlackjack.addEventListener("click", openBlackjackModal)
-closeBtn.addEventListener('click', closeBlackjackModal)
-window.addEventListener('click', clickOutside)
-
-function openBlackjackModal(){
-    modal.style.display = 'block'
-}
-function closeBlackjackModal(){
-    modal.style.display = 'none'
-}
-function clickOutside(e){
-    if(e.target === modal){
-        modal.style.display = 'none'
-    }
-}
-
-// Modal logic for Colossal
-const colossalModal = document.getElementById('colossalModal');
-const modalBtnColossal = document.getElementById('projectThumbnailColossal');
-const closeBtnColossal = document.getElementsByClassName('closeBtn')[5];
-
-modalBtnColossal.addEventListener("click", openColossalModal);
-closeBtnColossal.addEventListener('click', closeColossalModal)
-window.addEventListener('click', clickOutsideColossal)
-
-function openColossalModal(){
-    colossalModal.style.display = 'block'
-}
-function closeColossalModal(){
-    colossalModal.style.display = 'none'
-}
-function clickOutsideColossal(e){
-    if(e.target === colossalModal){
-        colossalModal.style.display = 'none'
-    }
-}
-
-// Modal logic for Zen
-const zenModal = document.getElementById('zenModal');
-const modalBtnZen = document.getElementById('projectThumbnailZengarden');
-const closeBtnZen = document.getElementsByClassName('closeBtn')[6];
-
-modalBtnZen.addEventListener("click", openZenModal);
-closeBtnZen.addEventListener('click', closeZenModal)
-window.addEventListener('click', clickOutsideZen)
-
-function openZenModal(){
-    zenModal.style.display = 'block'
-}
-function closeZenModal(){
-    zenModal.style.display = 'none'
-}
-function clickOutsideZen(e){
-    if(e.target === zenModal){
-        zenModal.style.display = 'none'
-    }
-}
-
-
-// Modal logic for NPM
-const npmModal = document.getElementById('npmModal');
-const modalBtnNpm = document.getElementById('projectThumbnailNpm');
-const closeBtnNpm = document.getElementsByClassName('closeBtn')[7];
-
-modalBtnNpm.addEventListener("click", openNpmModal);
-closeBtnNpm.addEventListener('click', closeNpmModal)
-window.addEventListener('click', clickOutsideNpm)
-
-function openNpmModal(){
-    npmModal.style.display = 'block'
-}
-function closeNpmModal(){
-    npmModal.style.display = 'none'
-}
-function clickOutsideNpm(e){
-    if(e.target === npmModal){
-        npmModal.style.display = 'none'
-    }
-}
-
-
-// // Modal logic for Axios
-// const axiosModal = document.getElementById('axiosModal');
-// const modalBtnAxios = document.getElementById('projectThumbnailAxios');
-// const closeBtnAxios = document.getElementsByClassName('closeBtn')[6];
-
-// modalBtnAxios.addEventListener("click", openAxiosModal);
-// closeBtnAxios.addEventListener('click', closeAxiosModal)
-// window.addEventListener('click', clickOutsideAxios)
-
-// function openAxiosModal(){
-//     axiosModal.style.display = 'block'
-// }
-// function closeAxiosModal(){
-//     axiosModal.style.display = 'none'
-// }
-// function clickOutsideAxios(e){
-//     if(e.target === axiosModal){
-//         axiosModal.style.display = 'none'
-//     }
-// }
-
-// // Modal logic for Business Time
-// const businessModal = document.getElementById('businessModal');
-// const modalBtnBusiness = document.getElementById('projectThumbnailBusiness');
-// const closeBtnBusiness = document.getElementsByClassName('closeBtn')[7];
-
-// modalBtnBusiness.addEventListener("click", openBusinessModal);
-// closeBtnBusiness.addEventListener('click', closeBusinessModal)
-// window.addEventListener('click', clickOutsideBusiness)
-
-// function openBusinessModal(){
-//     businessModal.style.display = 'block'
-// }
-// function closeBusinessModal(){
-//     businessModal.style.display = 'none'
-// }
-// function clickOutsideBusiness(e){
-//     if(e.target === businessModal){
-//         businessModal.style.display = 'none'
-//     }
-// }
 
