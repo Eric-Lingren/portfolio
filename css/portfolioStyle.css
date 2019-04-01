@@ -115,6 +115,11 @@ a:hover{
     }
 }
 
+@media screen and (max-width: 600px) {
+    }.tile{
+        width: 40vw;
+        height: 50vw;
+}
 
 @media screen and (max-width: 430px) {
     .pageWrapper{
