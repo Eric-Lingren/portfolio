@@ -104,11 +104,14 @@ a:hover{
     }.tile{
         width: 40vw;
         height: 40vw;
-    }.projectTitle{
+    }.project-title{
         font-size: 3vw;
     }
-    .projectDescription{
-        font-size: 2vw;
+    .project-description{
+        font-size: 1.8vw;
+    }
+    .builtWith{
+        font-size: 2.1vw;
     }
 }
 
@@ -119,10 +122,13 @@ a:hover{
     }.tile{
         width: 75vw;
         height: 75vw;
-    }.projectTitle{
+    }.project-title{
         font-size: 5.5vw;
     }
-    .projectDescription{
+    .project-description{
         font-size: 3vw;
+    }
+    .builtWith{
+        font-size: 3.2vw;
     }
 }
