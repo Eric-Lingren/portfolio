@@ -1,11 +1,19 @@
 let projects = [
     {
+        title : 'Employee CRUD',
+        imageUrl : '../files/thumbnails/employeeCRUD_screenshot.png',
+        description : 'A full stack CRUD site that is for simple HR employee management.  Gives the avability to add a new employees, update employees, delete employees and get all employees.',
+        builtWith: 'Built with React, MongoDB, Mongoose, ReactStrap, Express & CSS',
+        liveLink : 'http://crud-employees.herokuapp.com/',
+        gitLink : 'https://github.com/Eric-Lingren/crud_employees',
+    },
+    {
         title : 'Count Champ',
         imageUrl : '../files/thumbnails/countchamp_screenshot.png',
         description : 'A CRUD React Native app available for download on Google Play that teaches players the nuances of card counting.  Uses SQLite for database management of user stats in local storage and Axios for deck and card management.',
-        builtWith: 'Built with React Native, Android Studio, SQLite and Expo',
+        builtWith: 'Built with React Native, Android Studio, SQLite & Expo',
         liveLink : 'https://play.google.com/store/apps/details?id=com.cardchamp.countchamp&         rdid=com.cardchamp.countchampprojectLinkContainer',
-        githubLink : 'https://github.com/Eric-Lingren/react_native/tree/master/count_champ',
+        gitLink : 'https://github.com/Eric-Lingren/react_native/tree/master/count_champ',
     },
     {
         title : 'Infinity Investments',
@@ -13,7 +21,7 @@ let projects = [
         description : 'A full stack business site which maps over large sets of historical trade data provided from my forex broker. The app converts the data into interactive visualizations built with D3 and GreenSock.',
         builtWith: 'Built with React, Express, MongoDB, GreenSock, D3 & JavaScript ES6',
         liveLink : 'http://infinity-investments.herokuapp.com/',
-        githubLink : 'https://github.com/Eric-Lingren/infinity_investments',
+        gitLink : 'https://github.com/Eric-Lingren/infinity_investments',
     },
     {
         title : 'Crypto Minerz',
@@ -21,7 +29,7 @@ let projects = [
         description : 'This full stack e-commerce site was collaboratively built with 2 friends. It uses the BestBuy API to                 market GPUs and other mining hardware. Includes a wishlist, cart, checkout, profile, and user                       authentication.',
         builtWith: 'Built with ReactStrap, JavaScript, MongoDB, Express, Node.js & CSS',
         liveLink : 'http://cryptominerz.herokuapp.com/',
-        githubLink : 'https://github.com/jmc90/vcommerce-v2',
+        gitLink : 'https://github.com/jmc90/vcommerce-v2',
     },
     {
         title : 'SmartGarden',
@@ -29,7 +37,7 @@ let projects = [
         description : 'This is a MERN full stack app. It makes Axios requests to a MongoDB which allows adding, removing                   and saving plants or gardens. It also provides custom plant recommendations based on companion                       planting.',
         builtWith: 'Built with React, MongoDB, Express, Mongoose, Node.js, JavaScript ES6 & CSS',
         liveLink : 'https://smart-garden-planting.herokuapp.com/',
-        githubLink : 'https://github.com/Eric-Lingren/smartgarden',
+        gitLink : 'https://github.com/Eric-Lingren/smartgarden',
     },
     {
         title : 'Blackjack',
@@ -37,7 +45,7 @@ let projects = [
         description : 'This is a front-end React application that is not your average Blackjack game.  It is designed to                   teach players how to count cards and maintains comprehensive game analytics.  It uses the Deck of                    Cards API to provide deck, card, and shuffle functionality.',
         builtWith: 'Built with React, ES6 & CSS',
         liveLink : 'https://blackjack-for-cardcounters.netlify.com/#/',
-        githubLink : 'https://github.com/Eric-Lingren/blackjack_project',
+        gitLink : 'https://github.com/Eric-Lingren/blackjack_project',
     },
     {
         title : 'Colossal Adventure',
@@ -45,7 +53,7 @@ let projects = [
         description : 'A text-based RPG that utilizes readline-sync to accept user input and provide interaction directly                   within the console. This was my first logic heavy project and I included npm-play for sound effects                  and ASCII art for an immersive game.',
         builtWith: 'Built with Node.js & JavaScript',
         liveLink : 'https://github.com/Eric-Lingren/colossal_adventure',
-        githubLink : 'https://github.com/Eric-Lingren/colossal_adventure',
+        gitLink : 'https://github.com/Eric-Lingren/colossal_adventure',
     },
     {
         title : 'CSS Zen Garden',
@@ -53,7 +61,7 @@ let projects = [
         description : 'A fully responsive front-end site created as a clone of the original based solely on a PSD. This                     illustrates the ability to replicate ideas from a design team\'s mock-ups and implement those into a                 fully realized project. Landing page only.',
         builtWith: 'Built with HTML5 & CSS3',
         liveLink : 'http://zengarden.surge.sh/',
-        githubLink : 'https://github.com/Eric-Lingren/zen_garden_project',
+        gitLink : 'https://github.com/Eric-Lingren/zen_garden_project',
     },
     {
         title : 'NPM Packages',
@@ -61,7 +69,7 @@ let projects = [
         description : 'This is the list of all the NPM packages I have built.  One to remove all whitspace from a string.                   Another to parse out specific information from the current date and time displayed by the users                      system.  Links are in the Git repo readme.',
         builtWith: 'Built with Node.js, NPM & JavaScript',
         liveLink : 'https://www.npmjs.com/package/@fxhacker/get_date',
-        githubLink : 'https://github.com/Eric-Lingren/npm_projects',
+        gitLink : 'https://github.com/Eric-Lingren/npm_projects',
     },
 ]
 
