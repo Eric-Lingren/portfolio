@@ -1,0 +1,18 @@
+{
+    "projects" : [
+        {
+            "title": "Title 1",
+            "liveLink" : "Live-Link-1",
+            "githubLink" : "Github-Link-1",
+            "image" : "image-url-1",
+            "description" : "some text and content here for first description"
+        },
+        {
+            "title": "Title 2",
+            "liveLink" : "Live-Link-2",
+            "githubLink" : "Github-Link-2",
+            "image" : "image-url-2",
+            "description" : "some text and content here for second description"
+        }
+    ]
+}

@@ -255,6 +255,56 @@ a:hover{
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+.project-title{
+    font-size: 2vw;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.project-description{
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.1em;
+}
+
+.project-image{
+    height: 30%;
+    width: 90%;
+    margin-top: -2%;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: relative;
+    top: 1%;
+}
+.project-image:hover{
+    width: 92%;
+    cursor: pointer;
+}
+
+
+.links-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+
 @media screen and (max-width: 1000px) {
     .pageWrapper{
         grid-template-columns: 1fr 1fr;
