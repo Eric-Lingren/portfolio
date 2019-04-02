@@ -90,9 +90,9 @@ a{
     font-size: 1.3em;
     text-decoration: none;
 }
+
 a:hover{
     color: #99E6FF;
-    font-size: 1.3em;
     text-decoration: underline;
     font-weight: 600;
 }
@@ -116,9 +116,12 @@ a:hover{
 }
 
 @media screen and (max-width: 600px) {
-    }.tile{
+    .tile{
         width: 40vw;
-        height: 350px;
+    }
+    a{
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -136,4 +139,5 @@ a:hover{
     .builtWith{
         font-size: 3.2vw;
     }
+    
 }

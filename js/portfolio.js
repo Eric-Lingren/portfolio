@@ -48,6 +48,14 @@ let projects = [
         gitLink : 'https://github.com/Eric-Lingren/blackjack_project',
     },
     {
+        title : 'Fun With Canvas',
+        imageUrl : '../files/thumbnails/funwithcanvas_screenshot.png',
+        description : 'This site contains several projects with a variety of different things I have built using constructor                        functions in Javascript ES5 and canvas to show the fun interactions you are able to have with the DOM.',
+        builtWith: 'Built with Vanillia Javascript ES5 & CSS',
+        liveLink : 'http://funwithcanvas.surge.sh/index.html',
+        gitLink : 'https://github.com/Eric-Lingren/my_projects/tree/master/canvas_practice',
+    },
+    {
         title : 'Colossal Adventure',
         imageUrl : '../files/thumbnails/colossal_adventure_screenshot.png',
         description : 'A text-based RPG that utilizes readline-sync to accept user input and provide interaction directly                   within the console. This was my first logic heavy project and I included npm-play for sound effects                  and ASCII art for an immersive game.',
