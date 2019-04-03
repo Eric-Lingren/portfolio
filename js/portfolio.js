@@ -79,6 +79,14 @@ let projects = [
         liveLink : 'https://www.npmjs.com/package/@fxhacker/get_date',
         gitLink : 'https://github.com/Eric-Lingren/npm_projects',
     },
+    {
+        title : 'Project Euler',
+        imageUrl : '../files/thumbnails/euler_screenshot.png',
+        description : 'An ongoing site that I am using to work through the Project Euler challenges that are found at projecteuler.net. All the logic is in the JS file and you can show the result of each question I have completed. ',
+        builtWith: 'Built with Javascript ES5/ES6, HTML & CSS',
+        liveLink : 'http://ericsprojecteuler.surge.sh/',
+        gitLink : 'https://github.com/Eric-Lingren/euler',
+    },
 ]
 
 let container = document.getElementById('pageWrapper')
