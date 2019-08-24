@@ -87,6 +87,14 @@ let projects = [
         liveLink : 'http://ericsprojecteuler.surge.sh/',
         gitLink : 'https://github.com/Eric-Lingren/euler',
     },
+    {
+        title : 'Coding Challenges',
+        imageUrl : '../files/thumbnails/coding_challenges_screenshot.png',
+        description : 'A simple React site which uses PrismJS to display inline code snippets and serves as an aggregator of some coding challenges I have done from Boot Camp, Edabit, LeetCode and others. ',
+        builtWith: 'Built with React, JavaScript ES5/ES6, CSS & PrismJS',
+        liveLink : 'https://erics-coding-challenges.netlify.com/',
+        gitLink : 'https://github.com/Eric-Lingren/coding_challenges',
+    },
 ]
 
 let container = document.getElementById('pageWrapper')
