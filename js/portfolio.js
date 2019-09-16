@@ -95,6 +95,14 @@ let projects = [
         liveLink : 'https://erics-coding-challenges.netlify.com/',
         gitLink : 'https://github.com/Eric-Lingren/coding_challenges',
     },
+    {
+        title : 'Over The Wire',
+        imageUrl : '../files/thumbnails/over_the_wire_screenshot.png',
+        description : 'OverTheWire.org is a gameified site that focuses on learning Linux, networking and security concepts. These are broken up in to wargames and levels. This site is my walkthrough of the progress I am making with these wargames. ',
+        builtWith: 'Built with React, JavaScript & CSS',
+        liveLink : 'https://over-the-wire.netlify.com/',
+        gitLink : 'https://github.com/Eric-Lingren/over_the_wire',
+    },
 ]
 
 let container = document.getElementById('pageWrapper')
